@@ -79,13 +79,12 @@ SQL - Stands for Structural Query Language
 */
 
 
-echo "<ul>
-<li>HTML - Stands for Hypertext Markup Language</li>
-<li>CSS - Stands for Cascading Stylesheet</li>
-<li>JS - Stands for JavaScript</li>
-<li>PHP - Stands for Hypertext Preprocessor</li>
-<li>SQL - Stands for Structural Query Language</li>
-</ul>";
+echo "<ul><li>HTML - Stands for Hypertext Markup Language</li>
+          <li>CSS - Stands for Cascading Stylesheet</li>
+          <li>JS - Stands for JavaScript</li>
+          <li>PHP - Stands for Hypertext Preprocessor</li>
+          <li>SQL - Stands for Structural Query Language</li>
+     </ul>";
 
 
 ?>
