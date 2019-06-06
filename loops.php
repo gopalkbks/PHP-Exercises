@@ -27,7 +27,7 @@ to create array of numbers 5 to 100 with the step 5
 (example: 5, 10, 15, ...)
 */
 $numbers = range(7, 97, 9);
-print_r($numbers);
+
 /*
 Use for-loop and if-statement to print all odd numbers.
 
@@ -68,7 +68,7 @@ Use while-loop to print array elements (every food in a new row).
 
 $x=0;
 while($x < sizeof($food)){
-    echo $food[$x]. '<br>';
+    echo $food[$x]. "<br>";
     $x++;
 }
 
@@ -86,7 +86,10 @@ for($x=0; $x< sizeof($food); $x++){
 Use foreach-loop to print array elements (every food in a new row).
 */
 
-
+echo '<br>';
+foreach ($food as $value) {
+    echo "$value <br>";
+}
 
 
 // task separator
